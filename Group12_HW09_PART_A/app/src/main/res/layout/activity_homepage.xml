@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chala.group12_hw09_part_a.homepage">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        app:srcCompat="@android:drawable/screen_background_light"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp" />
+
+    <TextView
+        android:id="@+id/first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_marginLeft="33dp"
+        android:layout_marginStart="33dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    <TextView
+        android:id="@+id/last"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/first"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@+id/first"
+        android:layout_toRightOf="@+id/first"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    <TextView
+        android:id="@+id/genderHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/first"
+        android:layout_alignStart="@+id/first"
+        android:layout_below="@+id/first"
+        android:layout_marginTop="12dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <Button
+        android:id="@+id/avatarbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload image"
+        android:layout_alignBottom="@+id/genderHome"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView" />
+
+    <Button
+        android:id="@+id/finffrnds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="14dp"
+        android:text="Find Friends" />
+
+    <Button
+        android:id="@+id/requestsent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/finffrnds"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/finffrnds"
+        android:layout_below="@+id/finffrnds"
+        android:layout_marginTop="53dp"
+        android:text="Request Sent" />
+
+    <Button
+        android:id="@+id/requestreceived"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/requestsent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/requestsent"
+        android:layout_below="@+id/requestsent"
+        android:layout_marginTop="51dp"
+        android:text="Request Received" />
+
+    <Button
+        android:id="@+id/friends"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/requestreceived"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/requestreceived"
+        android:layout_below="@+id/requestreceived"
+        android:layout_marginTop="37dp"
+        android:text="Friends" />
+
+    <Button
+        android:id="@+id/createtrip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/finffrnds"
+        android:layout_toLeftOf="@+id/genderHome"
+        android:layout_toStartOf="@+id/genderHome"
+        android:text="Create Trip" />
+
+    <Button
+        android:id="@+id/mytrips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="My Trips"
+        android:layout_below="@+id/requestsent"
+        android:layout_alignLeft="@+id/createtrip"
+        android:layout_alignStart="@+id/createtrip" />
+
+    <Button
+        android:id="@+id/jointrips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Join Trips"
+        android:layout_below="@+id/requestreceived"
+        android:layout_alignLeft="@+id/mytrips"
+        android:layout_alignStart="@+id/mytrips" />
+
+</RelativeLayout>

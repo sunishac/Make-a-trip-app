@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "728775802402",
+    "firebase_url": "https://group12hw09parta.firebaseio.com",
+    "project_id": "group12hw09parta",
+    "storage_bucket": "group12hw09parta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728775802402:android:f699e6ced3ade4be",
+        "android_client_info": {
+          "package_name": "com.example.chala.group12_hw09_part_a"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728775802402-getia9b01hjmuq5jn19ootv9i68j8rfl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chala.group12_hw09_part_a",
+            "certificate_hash": "6cbf41129944b62ca1bc2857cd4721e00c5a4701"
+          }
+        },
+        {
+          "client_id": "728775802402-u4pcsie5agdfvslrgd9lvqd20dqfjut8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI3KAD103AGc0Q0zfiBQhCLgZYX1s8ieg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "728775802402-u4pcsie5agdfvslrgd9lvqd20dqfjut8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
